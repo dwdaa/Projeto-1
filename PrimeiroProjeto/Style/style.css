@@ -8,15 +8,12 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
  
+ 
 
 }
 header > h1 {
    background-color: white;
-   padding-top: 0%;
    text-align: center;
-   border: 10px double#4D3621 ;
-   border-radius: 6px;
-   margin:0px 216px ;
 
 }
 header > p {
@@ -27,17 +24,13 @@ header > p {
 }
 header{
    background-color: #CC9058;
-   margin: 16px 16px;
-   border: 16px solid #4D3621;
-  
+ 
 }
 
 main{
-   width: auto;
+   max-width:650px;
    background-color: white;
-   padding: 12px;
-   border-left: 316px solid #CC9058;
-   border-right:316px solid #CC9058 ;
+   
   
    align-items: center;
    text-align: center;
@@ -45,7 +38,7 @@ main{
 h2{
    text-align: center;
    background-color: #C18D4B;
-   border: 10px double #3E2822 ;
+  
 }
 p {
    text-align: justify;
@@ -57,10 +50,7 @@ ul > li{
 }
 nav > ul {
    background-color: white;
-   margin-left: 20px;
-   margin-right:1240px;
-   border: 8px solid white;
-   border-radius: 8px 4px;
+  
 }
 
 footer > p {
