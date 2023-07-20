@@ -30,6 +30,7 @@ header{
 main{
    max-width:650px;
    background-color: white;
+   margin: auto;
    
   
    align-items: center;
