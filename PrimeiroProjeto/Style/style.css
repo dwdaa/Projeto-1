@@ -47,7 +47,7 @@ main{
    background-color: white;
    margin: auto;
    padding: 10px;
-   padding-top: 2px;
+   
    
    
    
@@ -58,14 +58,14 @@ main{
 }
 h2{
    text-align: center;
-   background-color: #a24c00;
+ background-image: linear-gradient(to right, white, #a24c00, white);
    font-family: 'Dancing Script', sans-serif;
-   font-size: 18px;
-   border-radius: 6px 2px;
+   font-size: 20px;
 }
 p {
    text-align: justify;
    padding: 10px;
+   text-indent: 8px;
  
 }
 
@@ -99,8 +99,34 @@ nav > a {
 
 footer > p {
    text-align: center;
-   font-weight: bolder;
    background-color: var(--medio);
    padding: 8px;
    color: white;
+}
+a{
+   text-decoration: none;
+   color: black;
+   font-weight: bolder;
+
+}
+footer> p > a{
+   color: white;
+}
+div.video {
+   background-color: rgb(255, 255, 255);
+   margin: 10px -10px 30px -10px;
+   position: relative;
+   padding:15px ;
+   padding-bottom: 59%;
+
+
+}
+
+div.video > iframe{
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+
 }
