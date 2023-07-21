@@ -1,8 +1,15 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Goudy+Bookletter+1911&family=Newsreader:ital@0;1&display=swap');
 
+:root{
+    --escuro:#3A1C00;
+    --medio:#643001;
+    --claro:#BD7938;
+
+}
+
 body{
-   background-color: #CC9058;
+   background-color: var(--escuro);
    width: auto;
    border-radius: 6px 4px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -23,7 +30,7 @@ header > p {
    font-style: italic;
 }
 header{
-   background-color: #CC9058;
+   background-color: var(--claro);
  
 }
 
@@ -38,7 +45,7 @@ main{
 }
 h2{
    text-align: center;
-   background-color: #C18D4B;
+   background-color: var(--medio);
   
 }
 p {
