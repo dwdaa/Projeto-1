@@ -35,7 +35,7 @@ header > p {
    font-weight: 600;
 }
 header{
-   background-image: linear-gradient(to bottom, var(--claro),#ffc38f);
+   background-image: linear-gradient(to bottom, var(--claro),#9C6A4B);
    padding: 0px;
    min-width: 150px;
    
